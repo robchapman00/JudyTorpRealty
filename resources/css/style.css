@@ -1,0 +1,319 @@
+/* Global settings */
+
+* {
+    box-sizing: border-box;    
+    font-size: 16px;
+}
+
+.heading {
+    font-size: 2.7rem;
+    text-align: center;
+    font-family: 'Work Sans';
+    text-shadow: 2px 4px 5px rgba(0,0,0,0.3);
+}
+
+span {
+    color: #EDB824;
+    font-size: 2.7rem;
+    font-weight: bold;
+}
+
+p {
+    font-family:'Crimson Text';
+}
+
+/* Spacing */
+
+.margin-vertical {
+    margin: 3rem 0rem;
+}
+
+.margin-horizontal {
+    margin: 0 1rem;
+}
+
+.padding-top {
+    padding-top: 2rem;
+}
+
+.padding-bottom {
+    padding-bottom: 4rem;
+}
+
+/* Brand colors */
+
+.gold {
+    color:#EDB824;
+}
+
+.dark-gold {
+    color:#D29525;
+}
+
+.teal {
+    color:#017F8D;
+}
+
+.dark-teal {
+    color: #07526A;
+}
+
+/* Styling for the menu */
+
+header {
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: black solid 1px;
+    position: fixed;
+    z-index: 4;
+}
+
+.menu-container {
+    display: flex;
+    align-items: center;
+    padding: 0.8rem;
+}
+
+.menu-container img {
+    width: 180px;
+    height: auto;
+    margin-right: auto;
+}
+
+.menu ul {
+    display: flex;
+    padding-top: 2rem;
+    font-family: 'Work Sans';
+}
+
+.menu ul li {
+    margin-right: 5rem;
+    transition: color 400ms ease, text-shadow 400ms ease;
+}
+
+.menu ul li:hover {
+    color: #017F8D;
+    text-shadow: 0px 0.5px 0.5px rgba(0,0,0,0.2);
+}
+
+.menu ul li:active {
+    color: #EDB824;
+}
+
+.menu ul li a {
+    font-size: 1.2rem;
+}
+
+/* styling for the hero section */
+
+.hero-image {
+    background-image: url("../images/HomeCover.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    top: 8rem;
+
+}
+
+.container {
+    width: 100%;
+    padding: 18rem 0rem;
+    background-color: rgba(0,0,0,0.5);
+
+}
+
+h1 {
+    color: white;
+    padding: 1rem 0rem;
+    font-weight: bold;
+
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+input[type=text] {
+    background-color: lightgray;
+    border-radius: 4px 0px 0px 4px;
+    padding: 0.9rem;
+    width: 35%;
+}
+
+input[type=text]:focus {
+    outline: none;
+}
+
+input[type=submit] {
+    background-color: #EDB824;
+    color: white;
+    border-radius: 0px 4px 4px 0px;
+    font-family: 'Work Sans';
+    padding-left: 12px;
+    padding-right: 12px;
+    transition: background-color 470ms ease;
+}
+
+input[type=submit]:hover {
+    background-color: #D29525;
+}
+
+.valuation-description {
+    background-color: black;
+    width: 100%;
+    position: relative;
+    top: 8rem;
+}
+
+.hero-section {
+    font-family: 'Crimson Text';
+    font-size: 1.3rem;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    text-align: center;
+    padding: 1.1rem 0rem;
+}
+
+/* Home Listings */
+
+.house-listings {
+    margin-top: 4rem;
+    position: relative;
+    top: 8rem;
+    box-shadow: 1px 4px 5px rgba(0,0,0,0.4);
+}
+
+.house-listings h2 {
+    margin-bottom: 2rem;
+}
+
+.listing-row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.listing-row img {
+    width: 22%;
+    height: auto;
+    box-shadow: 2px 3px 6px rgba(0,0,0,0.3);
+    margin: 2rem 1rem;
+}
+
+/* Blog Posts */
+
+.blog {
+    background-color: #F0EDF3;
+    width: 100%;
+    padding-top: 1rem;
+    position: relative;
+    top: 8rem;
+}
+
+.blog h2 {
+    padding-top: 2rem; 
+}
+
+
+/* Why Work With Me Section */
+
+.work-with-me {
+    background-image: url("../images/RoomBackground.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 37rem;
+    position: relative;
+    top: 8rem;
+}
+
+.teal-container {
+    background-color: #07526A;
+    width: 70%;
+    position: relative;
+    top: 12rem;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5), -3px -2px 10px rgba(0,0,0,0.5);
+    margin: 0 auto;
+}
+
+.teal-container h2 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.reason {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 4rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+
+.reason img {
+    margin-right: 3rem;
+    width: 15%;
+    height: auto;
+}
+
+.reason p {
+    color: #ffffff;
+    font-size: 2rem;
+    width: 80%;    
+}
+
+.reason span {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #EDB824;
+}
+
+/* FAQ Section */
+
+.faq {
+    background-color: #F0EDF3;
+    background-size: cover;
+    width: 70%;
+    margin: 0 auto; 
+    position: relative;
+    top: 35rem;
+}
+
+.faq h2 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.faq p {
+    font-size: 2rem;
+    color: #07526A;
+    padding-bottom: 1rem;
+    padding-left: 1rem; 
+}
+
+/* footer */
+
+footer {
+    border-top: 6px solid #D29525;
+    background-color: black;
+    width: 100%;
+    color: white;
+    position: relative;
+    top: 35rem;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+footer p {
+    font-size: 1.2rem;
+    margin-right: auto;
+    margin-left: 3rem;
+    padding-top: 2rem;
+}
