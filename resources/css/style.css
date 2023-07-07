@@ -9,13 +9,14 @@
     font-size: 2.7rem;
     text-align: center;
     font-family: 'Work Sans';
-    text-shadow: 2px 4px 5px rgba(0,0,0,0.3);
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
 }
 
 span {
-    color: #EDB824;
+    color: #C7A960;
     font-size: 2.7rem;
     font-weight: bold;
+    text-shadow: 2px 3px 4px rgba(0,0,0,0.3);
 }
 
 p {
@@ -43,19 +44,19 @@ p {
 /* Brand colors */
 
 .gold {
-    color:#EDB824;
+    color:#EED493;
 }
 
 .dark-gold {
-    color:#D29525;
+    color:#C7A960;
 }
 
 .teal {
     color:#017F8D;
 }
 
-.dark-teal {
-    color: #07526A;
+.dark-red {
+    color: #670404;
 }
 
 /* Styling for the menu */
@@ -75,7 +76,7 @@ header {
 }
 
 .menu-container img {
-    width: 180px;
+    width: 200px;
     height: auto;
     margin-right: auto;
 }
@@ -92,12 +93,12 @@ header {
 }
 
 .menu ul li:hover {
-    color: #017F8D;
+    color: #C7A960;
     text-shadow: 0px 0.5px 0.5px rgba(0,0,0,0.2);
 }
 
 .menu ul li:active {
-    color: #EDB824;
+    color: #670404;
 }
 
 .menu ul li a {
@@ -190,7 +191,7 @@ input[type=text]:focus {
 }
 
 input[type=submit] {
-    background-color: #EDB824;
+    background-color: #C7A960;
     color: white;
     border-radius: 0px 4px 4px 0px;
     font-family: 'Work Sans';
@@ -200,7 +201,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #D29525;
+    background-color: #EED493;
 }
 
 .valuation-description {
@@ -314,7 +315,7 @@ input[type=submit]:hover {
 /* Blog Posts */
 
 .blog {
-    background-color: #F0EDF3;
+    background-color: #E9E4D4;
     width: 100%;
     padding-top: 1rem;
     position: relative;
@@ -351,7 +352,7 @@ input[type=submit]:hover {
 }
 
 .teal-container {
-    background-color: #07526A;
+    background-image: linear-gradient(45deg, #000000, #670404);
     width: 70%;
     position: relative;
     top: 12rem;
@@ -391,7 +392,7 @@ input[type=submit]:hover {
 .reason span {
     font-weight: bold;
     font-size: 2rem;
-    color: #EDB824;
+    color: #C7A960;
 }
 
 @media only screen and (max-width: 1275px) {
@@ -558,7 +559,6 @@ input[type=submit]:hover {
 
 .faq p {
     font-size: 2rem;
-    color: #07526A;
     padding-bottom: 1rem;
     padding-left: 1rem; 
 }
@@ -577,7 +577,7 @@ input[type=submit]:hover {
 /* footer */
 
 footer {
-    border-top: 6px solid #D29525;
+    border-top: 6px solid #C7A960;
     background-color: black;
     width: 100%;
     color: white;
